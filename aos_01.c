@@ -5,12 +5,12 @@ path
 The path to the file or directory that you want to access.
 amode
 The access mode you want to check. This must be either:
-F_OK � test for file existence.
+F_OK : test for file existence.
 or a bitwise ORing of the following access permissions to be checked, as defined in the header <unistd.h>:
 
-R_OK � test for read permission.
-W_OK � test for write permission.
-X_OK � for a directory, test for search permission. Otherwise, test for execute permission.
+R_OK : test for read permission.
+W_OK : test for write permission.
+X_OK : for a directory, test for search permission. Otherwise, test for execute permission.
 
 
 Description:
